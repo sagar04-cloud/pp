@@ -5,11 +5,7 @@ import App from './App';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
-<<<<<<< Updated upstream
-  throw new Error("Could dgyg hg not find root element to mount to");
-=======
-  throw new Error("Could dgyg  jhafdm not find root element to mount to");
->>>>>>> Stashed changes
+  throw new Error("Could not find root element to mount to");
 }
 
 const root = ReactDOM.createRoot(rootElement);
